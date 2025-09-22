@@ -57,7 +57,7 @@
                     const pattern_id = i.toString().padStart(3, "0")
                     const nightlord = nightlords[Math.floor(i * nightlords.length / 320)]
                     const shifting_earth = i % 40 < 20 ? "Default" : shifting_earths[Math.floor(i % 20 * shifting_earths.length / 20)]
-                    matched += `<a href="https://marunanya.github.io/nightreign-map-pattern/pattern/${pattern_id}.jpg">${pattern_id} - ${nightlord} - ${shifting_earth}</a><br>`
+                    matched += `<a href="https://thefifthmatt.github.io/nightreign/pattern/${pattern_id}.jpg">${pattern_id} - ${nightlord} - ${shifting_earth}</a><br>`
                 }
             }
             output.innerHTML = matched
